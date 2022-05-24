@@ -123,6 +123,12 @@ body {
   padding: 50px 0;
 }
 
+@media screen and (max-width: 425px), screen and (max-height: 600px) {
+  .mainblock {
+    padding: 20px 0;
+  }
+}
+
 .mainblock__content {
   position: relative;
   z-index: 1;
@@ -173,6 +179,13 @@ body {
   text-transform: uppercase;
   letter-spacing: 5.43px;
   margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 425px), screen and (max-height: 600px) {
+  .mainblock__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
 }
 
 .mainblock__subtitle {
