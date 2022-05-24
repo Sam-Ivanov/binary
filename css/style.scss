@@ -1,6 +1,10 @@
 @import 'nullstyle.scss';
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
+body {
+   font-family: 'Lato', sans-serif;
+}
+
 .btn {
    display: inline-block;
    // padding: 0 0;
@@ -12,15 +16,8 @@
    letter-spacing: 0.67px;
    color: #fff;
    border: 1px solid #fff;
-  
    &:hover {
-
    }
-
-}
-body {
-   font-family: 'Lato', sans-serif;
-   // height: 100%;
 }
 .container {
    max-width: 1100px;
