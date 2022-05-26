@@ -164,7 +164,7 @@ body {
 
 @media screen and (max-width: 425px), screen and (max-height: 600px) {
   .mainblock {
-    padding: 20px 0;
+    padding: 20px 0 50px 0;
   }
 }
 
@@ -254,6 +254,7 @@ body {
 }
 
 .mainblock__arrow {
+  margin: 0 0 30px 0;
   position: relative;
   -webkit-animation: arrow 1s infinite ease;
           animation: arrow 1s infinite ease;
@@ -620,9 +621,4 @@ body {
   .portfolio__footer {
     padding: 15px 0 0 0;
   }
-}
-
-.dpi {
-  font-size: 30px;
-  color: #fff;
 }
