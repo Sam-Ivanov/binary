@@ -372,3 +372,47 @@ body {
 }
 
 
+.partners {
+   background: url(../img/partners/parnt_bg.png) bottom no-repeat;
+   max-height: 390px;
+   &__title {
+      font-size: 30.4px;
+      line-height: 1.2;
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      color: #fff;
+      text-align: center;
+      padding-top: 100px;
+      margin-bottom: 85px;
+      @media (max-width:565px){
+         padding-top: 40px;
+         margin-bottom: 30px;
+
+      }
+   }
+   &__items {
+      max-width: 585px;
+      margin: 0 auto;
+   }
+   &__row {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 140px;
+      @media (max-width:565px){
+         flex-wrap: wrap;
+         padding-bottom: 40px;
+
+         // flex-direction: column;
+      }
+   }
+   &__item {
+      padding: 10px;
+      text-align: center;
+      @media (max-width:565px){
+         flex: 1 1 50%;
+
+   }
+   }
+}
