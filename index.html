@@ -7,6 +7,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
    <title>Binary</title>
+   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script defer src="js/script.js"></script>
+
 </head>
 
 <body>
@@ -111,24 +114,31 @@
                   </ul>
                </nav>
                <div class="portfolio__items">
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_2">
                      <a href="img/portfolio/01.png" class="portfolio__item"><img src="img/portfolio/01.png" alt=""></a>
                   </div>
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_2">
                      <a href="img/portfolio/02.png" class="portfolio__item"><img src="img/portfolio/02.png" alt=""></a>
                   </div>
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_2">
                      <a href="img/portfolio/03.png" class="portfolio__item"><img src="img/portfolio/03.png" alt=""></a>
                   </div>
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_3">
                      <a href="img/portfolio/04.png" class="portfolio__item"><img src="img/portfolio/04.png" alt=""></a>
                   </div>
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_4">
                      <a href="img/portfolio/05.png" class="portfolio__item"><img src="img/portfolio/05.png" alt=""></a>
                   </div>
-                  <div class="portfolio__column">
+                  <div class="portfolio__column f_4">
                      <a href="img/portfolio/06.png" class="portfolio__item"><img src="img/portfolio/06.png" alt=""></a>
                   </div>
+                  <div class="portfolio__column f_4">
+                     <a href="img/portfolio/07.png" class="portfolio__item"><img src="img/portfolio/07.png" alt=""></a>
+                  </div>
+                  <div class="portfolio__column f_4">
+                     <a href="img/portfolio/08.png" class="portfolio__item"><img src="img/portfolio/08.png" alt=""></a>
+                  </div>
+
                </div>
                <div class="portfolio__footer">
                   <a href="#" class="portfolio__btn btn btn_b">READ MORE</a>
@@ -139,21 +149,97 @@
             <div class="container">
                <div class="partners__title">Our partners</div>
                <div class="partners__items">
-                  <ul class="partners__row">
-                     <li class="partners__item"><img src="img/partners/partn01.png" alt=""></li>
-                     <li class="partners__item"><img src="img/partners/partn02.png" alt=""></li>
-                     <li class="partners__item"><img src="img/partners/partn03.png" alt=""></li>
-                     <li class="partners__item"><img src="img/partners/partn04.png" alt=""></li>
-                  </ul>
+                  <div class="partners__column">
+                     <div class="partners__item">
+                        <a href="#"><img src="img/partners/partn01.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="partners__column">
+                     <div class="partners__item">
+                        <a href="#"><img src="img/partners/partn02.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="partners__column">
+                     <div class="partners__item">
+                        <a href="#"><img src="img/partners/partn03.png" alt=""></a>
+                     </div>
+                  </div>
+                  <div class="partners__column">
+                     <div class="partners__item">
+                        <a href="#"><img src="img/partners/partn04.png" alt=""></a>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="contact">
-            
+         <div class="contacts">
+            <div class="container">
+               <div class="contacts__header-block header-block">
+                  <div class="header-block__title">CONTACT</div>
+               </div>
+               <div class="contacts__body">
+                  <div class="contacts__column">
+                     <form action="" class="contacts__form form-contacts">
+                        <div class="form-contacts__body">
+                           <div class="form-contacts__row">
+                              <div class="form-contacts__column">
+                                 <div class="form-contacts__input">
+                                    <div class="form-contacts__label">YOUR NAME</div>
+                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input">
+                                 </div>
+                              </div>
+                              <div class="form-contacts__column">
+                                 <div class="form-contacts__input">
+                                    <div class="form-contacts__label">YOUR E-MAIL</div>
+                                    <input autocomplete="off" type="text" name="form[]" data-value="" class="input">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-contacts__input">
+                              <div class="form-contacts__label">MESAGE</div>
+                              <textarea autocomplete="off" name="form[]" data-value="" class="input"></textarea>
+                           </div>
+                           <button type="submit" class="form-contacts__btn btn btn_send">SEND</button>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="contacts__column">
+                     <div class="contacts__content">
+                        <div class="contacts__text">Have an idea for a project? Just looking to
+                           explore and see the possibilities?
+                           I'm here to help.
+                        </div>
+                        <div class="contacts__name">Postma Elena</div>
+                        <div class="contacts__social social">
+                           <a href="" class="social__item"><img src="img/social/social_01.png" alt=""></a>
+                           <a href="" class="social__item"><img src="img/social/social_02.png" alt=""></a>
+                        </div>
+                        <div class="contacts__email">
+                           e-mail: <a href="mailto:postma.elena@gmail.com">postma.elena@gmail.com</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
+         <footer class="footer">
+            <div class="container">
+               <div class="footer__body">
+                  <a href="" class="footer__logo"><img src="img/footer/footer_logo.png" alt=""></a>
+                  <nav class="footer__menu">
+                     <ul class="footer__list">
+                        <li><a href="" class="footer__link">HOME</a></li>
+                        <li><a href="" class="footer__link">Facebook</a></li>
+                        <li><a href="" class="footer__link">Linkedin</a></li>
+                        <li><a href="" class="footer__link">Contact</a></li>
+                     </ul>
+                  </nav>
+                  <div class="footer__text">© 2015. All Rights Reserved</div>
+               </div>
+            </div>
+         </footer>
       </div>
    </div>
-   <script src="js/script.js"></script>
 </body>
 
 </html>
